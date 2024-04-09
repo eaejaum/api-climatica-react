@@ -59,7 +59,7 @@ const WeatherApp = () => {
     return (
         <div className="container">  
             <div className="top-bar">
-                <input type="text" className="city-input" placeholder='Search'/>
+                <input type="text" className="city-input" placeholder='Pesquisar'/>
                 <div className="search-icon" onClick={() => {search()}}>
                     <img src={search_icon} alt="" />
                 </div>
@@ -74,14 +74,14 @@ const WeatherApp = () => {
                     <img src={humidity_icon} alt="" className='icon'/>
                     <div className="data">
                         <div className="humidity-percent">64%</div>
-                        <div className="text">Humidity</div>
+                        <div className="text">Humidade</div>
                     </div>
                 </div>
                 <div className="element">
                     <img src={wind_icon} alt="" className='icon'/>
                     <div className="data">
                         <div className="wind-speed">18km/h</div>
-                        <div className="text">Wind Speed</div>
+                        <div className="text">Vel. Vento</div>
                     </div>
                 </div>
             </div>
